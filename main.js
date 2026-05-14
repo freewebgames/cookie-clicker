@@ -1170,10 +1170,6 @@ Game.Launch=function()
 		Game.Loader.loaded=Game.Init;
 		Game.Loader.Load(['filler.png']);
 	}
-	Game.ErrorFrame=function()
-	{
-		Game.Load();
-	}
 	Game.timedout=false;
 	Game.Timeout=function()
 	{
